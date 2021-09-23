@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
+textarea {
+  resize: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+select {
+  border: none;
+  outline: none;
+  appearance: none;
+}
+input,
+button {
+  border: none;
+  outline: none;
+}
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  perspective: 1px;
+  vertical-align: baseline;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+}
+.content {
+  margin: 0 auto;
+  max-width: 1920px;
+  position: relative;
+}

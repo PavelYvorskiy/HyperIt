@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyperIt</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="content">
+
+        <header class="header">
+            <div class="navbar-content">
+                <div class="navbar-content__logo">HYPER<span class="navbar-content__span">IT</span></div>
+                <nav class="navbar" id="navbar">
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">
+                            <a href="#first" class="nav-one navbar__link active">Головна</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#card" class="nav-two navbar__link">Рішення</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#advantages" class="nav-three navbar__link">Переваги</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#partners" class="nav-four navbar__link">Партнери</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#contact" class="nav-five navbar__link">Контакти</a>
+                        </li>
+                        <li class="navbar__item ">
+                            <a class="navbar__link" href="./indexEN.html">UA</a>
+                        </li>
+                    </ul>
+                    <button class="navbar__btn" id="btn"><span></span></button>
+                </nav>
+            </div>
+            <div class="form-content">
+                <div class="containerForm">
+                    <form class="form" action="" id="form">
+                        <button type="button" class="btn">x</button>
+                        <h2 class="form__title">Напишіть нам</h2>
+                        <p class="form__text">
+                            Допоможемо розробити робочу стратегію та реалізувати рішення,
+                            що відповідає рівню підприємства!
+                        </p>
+                        <input class="input name req" type="text" placeholder="ім'я" name="name" />
+                        <input class="input email req" type="email" placeholder="email" name="email" />
+                        <input class="input tel req" type='tel' placeholder="tel" name="tel" />
+                        <textarea class="input input_textarea" name="message" id="" cols="30" rows="10"></textarea>
+                        <button class="btnForm" name="submit" type="submit">Відправити запит</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div id="first" class="section container-first">
+                <div class="first-content">
+                    <div class="first-content__vector"></div>
+                    <div class="first-content__container">
+                        <h6 class="first-content__title">КОМПАНІЯ</h6>
+                        <h2 class="first-content__subtitle">Ваш бізнес-партнер в сфері IT</h2>
+                        <p class="first-content__text">Ми сучасна компанія, яка має багаторічний досвід в проектуванні
+                            та впровадженні різноманітних
+                            IT-рішень
+                            Наше кредо – результат повинен завжди перевищувати очікування наших Замовників,
+                            а всі проекти завершуватися в назначений термін.
+                            Ми завжди намагаємось робити свою роботу максимально якісно тому що дбаємо про свою
+                            репутацію.</p>
+                        <button class="btnActiveForm content-btn">Відправити запит</button>
+                    </div>
+                </div>
+            </div>
+            <div id="card" class="section container-card">
+                <h2 class="container-card__title">Наша спеціалізація</h2>
+                <div class="wrapper">
+                    <div class="card card__one">
+                        <img class="card__img" src="./assets/svg/services4.svg" alt="">
+                        <h2 class="card__title">Інформаційна безпека</h2>
+                        <span class="card__text">Ми пропонуємо комплекс рішень для забезпечення інформаційної безпеки з
+                            ціллю захисту Вашої
+                            ІТ-інфраструктури. А саме: експертний аудит в сфері інформаційної безпеки, підбір
+                            конфігурації під ваші потреби, проведення пілоту, налаштування та впровадження обраного
+                            рішення.</span>
+
+                    </div>
+
+                    <div class="card card__two">
+                        <img class="card__img" src="./assets/svg/services9.svg" alt="">
+                        <h2 class="card__title">Персональна техніка,вкс</h2>
+                        <span class="card__text">
+                            Ми допоможемо Вам підібрати, поставити і налаштувати обладнання,
+                            що відповідає усім технічним
+                            та якісним характеристикам від робочого місця рядового офісного персоналу, до
+                            високопродуктивних вимогливих рішень.
+                        </span>
+                    </div>
+                    <div class="card card__three">
+                        <img class="card__img" src="./assets/svg/services6.svg" alt="">
+                        <h2 class="card__title">Програмне забезпечення</h2>
+                        <span class="card__text">
+                            Наша компанія пропонує має великий вибір програмних продуктів, які дозволять значно знизити
+                            Ваші затрати на придбання ліцензій.
+                        </span>
+                    </div>
+                    <div class="card card__four">
+                        <img class="card__img" src="./assets/svg/services5.svg" alt="">
+                        <h2 class="card__title">Cервери та системи зберігання даних</h2>
+                        <span class="card__text">
+                            Будуємо високонадійні центри обробки даних, серверні центри та системи зберігання даних, що
+                            гарантують безперервну роботу ІТ-сервісів
+                        </span>
+                    </div>
+                    <div class="card card__five">
+                        <img class="card__img" src="./assets/svg/services8.svg" alt="">
+                        <h2 class="card__title">Розвиток мережевої інфраструктури</h2>
+                        <span class="card__text">
+                            Проектуємо, будуємо та підтримуємо сучасне та надійне мережеве обладнання, що дозволить
+                            вашому бізнесу забезпечити безперервну
+                            та безпечну роботу ключових додатків та сервісів
+                        </span>
+                    </div>
+                    <div class="card card__six">
+                        <img class="card__img" src="./assets/svg/services2.svg" alt="">
+                        <h2 class="card__title">Телефонiя та вiдеоконференцзв'язок</h2>
+                        <span class="card__text">
+                            Ми маємо досвід в побудові уніфікованих телекомунікаційних мереж, впровадженню
+                            апаратно-програмного комплексу захишеного відомчого телефонного та вiдеоконференцзв'язkу.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="advantages" class="section container-advantages">
+                <h2 class="container-advantages__title">Чому ми?</h2>
+                <div class="contentAdvantages">
+                    <img class="contentAdvantages__img" src="./assets/svg/content1.svg" alt="">
+                    <div class="containerText">
+                        <div class="item">
+                            <div class="box">
+                                <div class="box__content">
+                                    <span>1</span>
+                                </div>
+                            </div>
+                            <div class="item__content">
+                                <span>
+                                    Ми команда кваліфікаційних експертів з багаторічним досвідом в впровадженні
+                                    рішень в сфері IT згідно Ваших потреб
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box">
+                                <div class="box__content">
+                                    <span>2</span>
+                                </div>
+                            </div>
+                            <div class="item__content">
+                                <span>
+                                    Ми дотримуємося комплексного підхіду в реалізації ІТ проектів від аудиту поточної
+                                    інфраструктури замовника, проєктування, продаж обладнання до сервісної та
+                                    постгарантійної підтримки
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box">
+                                <div class="box__content">
+                                    <span>3</span>
+                                </div>
+                            </div>
+                            <div class="item__content">
+                                <span>
+                                    Ми застосовуємо новаторський підхід до кожного проекту та використовуємо передові
+                                    технології, щоб заощадити ваші гроші на ранніх стадіях проекту
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="partners" class="section container-partners">
+                <h2 class="container-partners__title">Наші партнери</h2>
+                <div class="partners-wrapper">
+                    <div class="partnersItem">
+                        <img src="./assets/partners/oracle.png" alt="">
+                    </div>
+                    <div class="partnersItem">
+                        <img src="./assets/partners/vmware.png" alt="">
+                    </div>
+                    <div class="partnersItem">
+                        <img src="./assets/partners/ibm.png" alt="">
+                    </div>
+                    <div class="partnersItem">
+                        <img src="./assets/partners/HPE_Partner-1.png" alt="">
+                    </div>
+                    <div class="partnersItem">
+                        <img src="./assets/partners/logo-cisco.png" alt="">
+                    </div>
+                    <div class="partnersItem">
+                        <img src="./assets/partners/Hp.jpeg" alt="">
+                    </div>
+                    <div class="partnersItem">
+                        <img src="./assets/partners/Microsoft.png" alt="">
+                    </div>
+                    <div class="partnersItem">
+                        <img src="./assets/partners/nutanix.png" alt="">
+                    </div>
+                    <div class="partnersItem">
+                        <img src="./assets/partners/McAfee.png" alt="">
+                    </div>
+                    <div class="partnersItem">
+                        <img src="./assets/partners/lenovo.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="section container-contact">
+                <h2 class="container-contact__title">Контакти</h2>
+                <div class="contentContact">
+                    <div class="itemContact">
+                        <div class="boxContact">
+                            <div class="boxContact__content">
+                                <img src="./assets/icons/home.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="itemContact__content">
+                            <h3 class="itemContact__content_title">Адреса:</h3>
+                            <span class="itemContact__content_text">
+                                04080
+                                м.Київ<br />
+                                вул.В.Хвойки, 21
+                            </span>
+                        </div>
+                    </div>
+                    <div class="itemContact">
+                        <div class="boxContact">
+                            <div class="boxContact__content">
+                                <img src="./assets/icons/telephone.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="itemContact__content">
+                            <h3 class="itemContact__content_title">Телефон:</h3>
+                            <a href="tel: 044 332 32 32">
+                                <p class="p">044 332 32 32</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemContact">
+                        <div class="boxContact">
+                            <div class="boxContact__content">
+                                <img src="./assets/icons/close-envelope.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="itemContact__content">
+                            <h3 class="itemContact__content_title">E-mail:</h3>
+                            <a href="mailto:nfo@hyperit.ua">
+                                <p class="p">info@hyperit.ua</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="btnActiveForm contentContact__btn">Відправити запит</button>
+                <div class="globalMap">
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="footer-wrapper">
+                <div class="footer-wrapper__logo">HYPER<span class="footer-wrapper__span">IT</span></div>
+                <nav class="navbarFooter">
+                    <ul class="navbarFooter__menu">
+                        <li class="navbarFooter__item">
+                            <a href="#first" class="nav-one navbarFooter__link active">Головна</a>
+                        </li>
+                        <li class="navbarFooter__item">
+                            <a href="#card" class="nav-two navbarFooter__link">Рішення</a>
+                        </li>
+                        <li class="navbarFooter__item">
+                            <a href="#advantages" class="nav-three navbarFooter__link">Переваги</a>
+                        </li>
+                        <li class="navbarFooter__item">
+                            <a href="#partners" class="nav-four navbarFooter__link">Партнери</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <div class="footerContactBox">
+                    <span> 04080
+                        м.Київ<br />
+                        вул.В.Хвойки, 21</span>
+                    <span>
+                        044 332 32 32
+                    </span>
+                    <span>
+                        info@hyperit.ua
+                    </span>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+
+    <script type="module" src="./script/index.js"></script>
+
+</body>
+
+</html>
