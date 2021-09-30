@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
     input.classList.add("error");
   }
   function removeError(input) {
-    input.parentElement.classList.remove(".error");
-    input.classList.remove(".error");
+    input.parentElement.classList.remove("error");
+    input.classList.remove("error");
   }
   function emailTest(input) {
     return !/^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$/.test(
